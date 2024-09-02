@@ -2,22 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.architecture.designpatterns.decorator.abstractfactory;
+package com.architecture.designpatterns.abstractfactory;
 
 /**
  *
  * @author felix
  */
-public class Xiaomi implements ISmartphone {
+public class Iphone implements ISmartphone {
 
     @Override
     public String getOS() {
-        return "MIUI";
+        return "IOS";
     }
 
     @Override
     public String getModel() {
-        return "Redmi NOTE";
+        return "15 Pro";
     }
 
     @Override
@@ -29,9 +29,8 @@ public class Xiaomi implements ISmartphone {
     public int getMemorySize() {
         return 256;
     }
-    
     @Override
     public String toString() {
         return getOS() + ", " + getModel() + ", " + getYear() + ", " + getMemorySize();
-    }    
+    }
 }
