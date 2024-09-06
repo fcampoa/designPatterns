@@ -15,13 +15,12 @@ public abstract class DatabaseConnection {
     protected String password;
     protected String databaseName;
     protected int port;
-    protected DatabaseConnection instance;
+    protected static DatabaseConnection instance;
     
     public abstract void open() throws Exception;
     public abstract void close() throws Exception;
     public abstract Object createQuery(String query) throws Exception;
     public abstract Object createUpdate(String query) throws Exception;
-    public abstract DatabaseConnection getInstance();
     
     public DatabaseConnection connectionString(String connectionString) {
         this.connectionString = connectionString;
