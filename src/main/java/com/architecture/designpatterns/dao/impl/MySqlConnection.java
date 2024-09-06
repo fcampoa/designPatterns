@@ -2,19 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.architecture.designpatterns.dao;
+package com.architecture.designpatterns.dao.impl;
+
+import com.architecture.designpatterns.dao.DatabaseConnection;
 
 /**
  *
  * @author felix
  */
-public class SqlServerConnection extends DatabaseConnection {
+ class MySqlConnection extends DatabaseConnection {
     
-    private SqlServerConnection() {}
+    private MySqlConnection() {
+        
+    }
 
     @Override
     public void open() throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("Starting connection from mysql...");
     }
 
     @Override
@@ -24,7 +28,7 @@ public class SqlServerConnection extends DatabaseConnection {
 
     @Override
     public Object createQuery(String query) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "selected rows";
     }
 
     @Override
@@ -32,9 +36,8 @@ public class SqlServerConnection extends DatabaseConnection {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    @Override
-    public DatabaseConnection getInstance() {
-        return (instance != null) ? instance : (instance = new SqlServerConnection());
+    public static DatabaseConnection getInstance() {
+        return (instance != null) ? instance : (instance = new MySqlConnection());
     }
     
 }
