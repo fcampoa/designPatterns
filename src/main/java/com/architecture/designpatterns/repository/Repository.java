@@ -6,6 +6,8 @@ package com.architecture.designpatterns.repository;
 
 import com.architecture.designpatterns.dao.DatabaseConnection;
 import com.architecture.designpatterns.repository.models.BaseEntity;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
 import java.util.List;
 
 /**
@@ -16,15 +18,20 @@ import java.util.List;
 public class Repository<T extends BaseEntity> implements IRepository {
     
     private DatabaseConnection connection;
+    private Type type;
     
     public Repository(DatabaseConnection connection) {
         this.connection = connection;
+        Type t = getClass().getGenericSuperclass();
+        ParameterizedType pt = (ParameterizedType) t;
+        type = (Class) pt.getActualTypeArguments()[0];
     }
 
     @Override
     public BaseEntity create(BaseEntity entity) {
         try {
-        entity.setCode((String) connection.createQuery("inser into"));            
+        entity.setCode((String) connection.createQuery("inser into")); 
+        entity.setMsg(String.format("Creating entity of class {0} in class of {1}", type.getClass().getName(), getClass().getName()));
         } catch(Exception ex) {
             
         }

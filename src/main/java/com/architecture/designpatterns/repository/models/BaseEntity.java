@@ -11,6 +11,7 @@ package com.architecture.designpatterns.repository.models;
 public class BaseEntity {
     protected long id;
     protected String code;
+    protected String msg;
 
     public long getId() {
         return id;
@@ -32,6 +33,14 @@ public class BaseEntity {
 
     public void setCode(String code) {
         this.code = code;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
     }
     
     
