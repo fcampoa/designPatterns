@@ -14,11 +14,11 @@ import java.util.List;
  */
 public interface IRepository <T extends BaseEntity>{
     
-    T create(T entity);
-    T read(long id);
-    T update(T entity);
-    void delete(long id);
-    List<T> getAll();
+    public T create(T entity);
+    public T read(long id);
+    public T update(T entity);
+    public void delete(long id);
+    public List<T> getAll();
     
     
 }
