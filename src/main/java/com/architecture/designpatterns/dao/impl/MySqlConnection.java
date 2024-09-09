@@ -39,5 +39,10 @@ import com.architecture.designpatterns.dao.DatabaseConnection;
     public static DatabaseConnection getInstance() {
         return (instance != null) ? instance : (instance = new MySqlConnection());
     }
+
+    @Override
+    public int commit() {
+        return 1;
+    }
     
 }

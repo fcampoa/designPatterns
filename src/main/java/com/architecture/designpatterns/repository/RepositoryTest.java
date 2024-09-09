@@ -16,7 +16,7 @@ public class RepositoryTest {
     
     public static void main(String[] args) {
         DatabaseConnection connection = PersistenceUnit.getConnection("localhost", "admin", "admin", "architecture", -3306, "sqlserver");
-        IRepository personRepository = new Repository<Person>(connection);
+        IRepository personRepository = new PersonRepository(connection);
         Person p = new Person(1, "jhon doe");
         p.setCode("example");
         System.out.println(p.getCode());

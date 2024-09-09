@@ -25,7 +25,7 @@ public class Repository<T extends BaseEntity> implements IRepository {
         Type t = getClass().getGenericSuperclass();
         ParameterizedType pt = (ParameterizedType) t;
         type = (Class) pt.getActualTypeArguments()[0];
-    }
+   }
 
     @Override
     public BaseEntity create(BaseEntity entity) {
