@@ -3,6 +3,7 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\dao\impl\PostgresqlConnection.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\IphoneFactory.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\singleton\Singleton.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\CommandWrapper.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\templatemethod\requests\Request.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\INotification.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\proxy\ProxyTest.java
@@ -11,7 +12,9 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\adapter\UsbTypeC.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\BridgeTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\SamsungFactory.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\PrintDataCommand.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\IRepository.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\MakeCallCommand.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\Green.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\RepositoryTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\chainofresponsability\Director.java
@@ -22,12 +25,14 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\proxy\IMessageService.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\chainofresponsability\Bank.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\Shape.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\CommandExecutor.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\Samsung.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\adapter\IConnectable.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\observer\ObserverView.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\chainofresponsability\Manager.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\SMSNotification.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\singleton\SingletonTest.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\SendEmailCommand.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\DecoratorTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\Iphone.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\EmailNotification.java
@@ -48,6 +53,7 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\AbstractFactoryTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\chainofresponsability\IApprover.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\observer\IObserver.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\ICommand.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\FacebookNotification.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\BaseDecorator.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\ISmartphone.java
@@ -67,3 +73,4 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\proxy\MessageServiceImpl.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\observer\Observable.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\XiaomiFactory.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\CommandTest.java
