@@ -1,11 +1,10 @@
-com\architecture\designpatterns\observer\ObserverView$5.class
 com\architecture\designpatterns\abstractfactory\FactoryConfiguration.class
 com\architecture\designpatterns\abstractfactory\ISmartphone.class
 com\architecture\designpatterns\chainofresponsability\Manager.class
 com\architecture\designpatterns\decorator\Notification.class
+com\architecture\designpatterns\adapter\IphoneConnector.class
 com\architecture\designpatterns\repository\RepositoryTest.class
 com\architecture\designpatterns\proxy\LogServiceImpl.class
-com\architecture\designpatterns\observer\ObserverView$2.class
 com\architecture\designpatterns\templatemethod\HttpController.class
 com\architecture\designpatterns\repository\Repository.class
 com\architecture\designpatterns\dao\DaoTest.class
@@ -18,7 +17,6 @@ com\architecture\designpatterns\proxy\MessageServiceImpl.class
 com\architecture\designpatterns\singleton\Singleton.class
 com\architecture\designpatterns\chainofresponsability\Director.class
 com\architecture\designpatterns\observer\IObserver.class
-com\architecture\designpatterns\observer\ObserverView$4.class
 com\architecture\designpatterns\templatemethod\PersonController.class
 com\architecture\designpatterns\chainofresponsability\TestChainOfResponsability.class
 com\architecture\designpatterns\dao\impl\MySqlConnection.class
@@ -27,16 +25,15 @@ com\architecture\designpatterns\observer\ObserverTest.class
 com\architecture\designpatterns\proxy\IMessageService.class
 com\architecture\designpatterns\dao\impl\SqlServerConnection.class
 com\architecture\designpatterns\repository\models\Person.class
-com\architecture\designpatterns\observer\ObserverView$1.class
 com\architecture\designpatterns\templatemethod\HttpMethod.class
+com\architecture\designpatterns\adapter\IConnectable.class
 com\architecture\designpatterns\decorator\BaseDecorator.class
 com\architecture\designpatterns\abstractfactory\Iphone.class
 com\architecture\designpatterns\decorator\FacebookNotification.class
 com\architecture\designpatterns\chainofresponsability\AccountExecutive.class
-com\architecture\designpatterns\observer\ObserverView$7.class
-com\architecture\designpatterns\observer\ObserverView$3.class
 com\architecture\designpatterns\abstractfactory\SamsungFactory.class
 com\architecture\designpatterns\templatemethod\HttpController$1.class
+com\architecture\designpatterns\adapter\UsbTypeC.class
 com\architecture\designpatterns\proxy\ProxyTest.class
 com\architecture\designpatterns\templatemethod\TemplateMethodTest.class
 com\architecture\designpatterns\chainofresponsability\ExecutiveTeamLead.class
@@ -47,7 +44,6 @@ com\architecture\designpatterns\dao\impl\PersistenceUnit.class
 com\architecture\designpatterns\dao\DatabaseConnection.class
 com\architecture\designpatterns\repository\models\BaseEntity.class
 com\architecture\designpatterns\chainofresponsability\IApprover.class
-com\architecture\designpatterns\observer\ObserverView$6.class
 com\architecture\designpatterns\proxy\MessageServiceProxy.class
 com\architecture\designpatterns\abstractfactory\ISmarthphoneFactory.class
 com\architecture\designpatterns\decorator\EmailNotification.class
@@ -58,6 +54,8 @@ com\architecture\designpatterns\decorator\SMSNotification.class
 com\architecture\designpatterns\abstractfactory\XiaomiFactory.class
 com\architecture\designpatterns\abstractfactory\Samsung.class
 com\architecture\designpatterns\observer\Observable.class
+com\architecture\designpatterns\adapter\IphoneConnectorCAdapter.class
+com\architecture\designpatterns\adapter\AdapterTest.class
 com\architecture\designpatterns\decorator\DecoratorTest.class
 com\architecture\designpatterns\abstractfactory\AbstractFactoryTest.class
 com\architecture\designpatterns\singleton\SingletonTest.class
