@@ -101,46 +101,32 @@ public class ObserverView extends JFrame {
     }
     
     private void addButtonActions() {
-        updateValueButton.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent evt) {
-                updateValue();
-            }
+        updateValueButton.addActionListener((ActionEvent evt) -> {
+            updateValue();
         });
         
-        subscriberButton1.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent evt) {
-                observable.subscribe(observer1);
-            }
+        subscriberButton1.addActionListener((ActionEvent evt) -> {
+            observable.subscribe(observer1);
         });
         
-        subscriberButton2.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent evt) {
-                observable.subscribe(observer2);
-            }
+        subscriberButton2.addActionListener((ActionEvent evt) -> {
+            observable.subscribe(observer2);
         });
         
-        subscriberButton3.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent evt) {
-                observable.subscribe(observer3);
-            }
+        subscriberButton3.addActionListener((ActionEvent evt) -> {
+            observable.subscribe(observer3);
         });
         
-        unSubscribeButton1.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent evt) {
-                observable.unSubscribe(observer1);
-            }
+        unSubscribeButton1.addActionListener((ActionEvent evt) -> {
+            observable.unSubscribe(observer1);
         });
         
-        unSubscribeButton2.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent evt) {
-                observable.unSubscribe(observer2);
-            }
+        unSubscribeButton2.addActionListener((ActionEvent evt) -> {
+            observable.unSubscribe(observer2);
         });
         
-        unSubscribeButton3.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent evt) {
-                observable.unSubscribe(observer3);
-            }
+        unSubscribeButton3.addActionListener((ActionEvent evt) -> {
+            observable.unSubscribe(observer3);
         });
     }
     
