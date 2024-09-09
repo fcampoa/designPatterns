@@ -12,6 +12,7 @@ com\architecture\designpatterns\decorator\INotification.class
 com\architecture\designpatterns\abstractfactory\IphoneFactory.class
 com\architecture\designpatterns\templatemethod\requests\Request.class
 com\architecture\designpatterns\abstractfactory\Xiaomi.class
+com\architecture\designpatterns\command\SendEmailCommand.class
 com\architecture\designpatterns\observer\ObserverView.class
 com\architecture\designpatterns\proxy\MessageServiceImpl.class
 com\architecture\designpatterns\singleton\Singleton.class
@@ -27,6 +28,7 @@ com\architecture\designpatterns\repository\IRepository.class
 com\architecture\designpatterns\observer\ObserverTest.class
 com\architecture\designpatterns\proxy\IMessageService.class
 com\architecture\designpatterns\dao\impl\SqlServerConnection.class
+com\architecture\designpatterns\command\MakeCallCommand.class
 com\architecture\designpatterns\repository\models\Person.class
 com\architecture\designpatterns\bridge\Triangle.class
 com\architecture\designpatterns\templatemethod\HttpMethod.class
@@ -38,6 +40,7 @@ com\architecture\designpatterns\bridge\Red.class
 com\architecture\designpatterns\decorator\FacebookNotification.class
 com\architecture\designpatterns\chainofresponsability\AccountExecutive.class
 com\architecture\designpatterns\abstractfactory\SamsungFactory.class
+com\architecture\designpatterns\command\PrintDataCommand.class
 com\architecture\designpatterns\templatemethod\HttpController$1.class
 com\architecture\designpatterns\adapter\UsbTypeC.class
 com\architecture\designpatterns\proxy\ProxyTest.class
@@ -52,6 +55,7 @@ com\architecture\designpatterns\dao\DatabaseConnection.class
 com\architecture\designpatterns\repository\models\BaseEntity.class
 com\architecture\designpatterns\bridge\Green.class
 com\architecture\designpatterns\chainofresponsability\IApprover.class
+com\architecture\designpatterns\command\CommandTest.class
 com\architecture\designpatterns\proxy\MessageServiceProxy.class
 com\architecture\designpatterns\abstractfactory\ISmarthphoneFactory.class
 com\architecture\designpatterns\decorator\EmailNotification.class
@@ -59,7 +63,10 @@ com\architecture\designpatterns\observer\ConcrateObservable.class
 com\architecture\designpatterns\observer\ConcrateObserver.class
 com\architecture\designpatterns\dao\impl\PostgresqlConnection.class
 com\architecture\designpatterns\decorator\SMSNotification.class
+com\architecture\designpatterns\command\CommandExecutor.class
 com\architecture\designpatterns\abstractfactory\XiaomiFactory.class
+com\architecture\designpatterns\command\CommandWrapper.class
+com\architecture\designpatterns\command\ICommand.class
 com\architecture\designpatterns\abstractfactory\Samsung.class
 com\architecture\designpatterns\observer\Observable.class
 com\architecture\designpatterns\adapter\IphoneConnectorCAdapter.class
