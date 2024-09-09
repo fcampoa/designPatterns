@@ -14,6 +14,7 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\SamsungFactory.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\PrintDataCommand.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\IRepository.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\unitofwork\UnitOfWorkTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\MakeCallCommand.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\Green.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\RepositoryTest.java
@@ -27,6 +28,7 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\Shape.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\CommandExecutor.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\Samsung.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\AnimalRepository.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\adapter\IConnectable.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\observer\ObserverView.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\chainofresponsability\Manager.java
@@ -45,8 +47,10 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\Notification.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\models\Person.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\dao\impl\MySqlConnection.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\unitofwork\UnitOfWork.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\chainofresponsability\ExecutiveTeamLead.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\models\BaseEntity.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\unitofwork\IUnitOfWork.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\dao\impl\SqlServerConnection.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\templatemethod\HttpMethod.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\Black.java
@@ -56,6 +60,7 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\ICommand.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\FacebookNotification.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\BaseDecorator.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\PersonRepository.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\ISmartphone.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\IColor.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\templatemethod\PersonController.java

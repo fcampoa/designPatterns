@@ -4,6 +4,8 @@
  */
 package com.architecture.designpatterns.dao;
 
+import java.util.List;
+
 /**
  *
  * @author felix
@@ -16,11 +18,13 @@ public abstract class DatabaseConnection {
     protected String databaseName;
     protected int port;
     protected static DatabaseConnection instance;
+    protected List tables;
     
     public abstract void open() throws Exception;
     public abstract void close() throws Exception;
     public abstract Object createQuery(String query) throws Exception;
     public abstract Object createUpdate(String query) throws Exception;
+    public abstract int commit();
     
     public DatabaseConnection connectionString(String connectionString) {
         this.connectionString = connectionString;

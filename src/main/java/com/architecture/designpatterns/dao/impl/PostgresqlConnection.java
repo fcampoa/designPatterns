@@ -37,5 +37,10 @@ class PostgresqlConnection extends DatabaseConnection {
     public static DatabaseConnection getInstance() {
        return (instance != null) ? instance : (instance = new PostgresqlConnection());
     }
+
+    @Override
+    public int commit() {
+        return 1;
+    }
     
 }
