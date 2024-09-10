@@ -1,5 +1,6 @@
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\proxy\LogServiceImpl.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\DesignPatterns.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\builder\orchestorclass\HouseBuilder.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\dao\impl\PostgresqlConnection.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\IphoneFactory.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\singleton\Singleton.java
@@ -7,15 +8,19 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\templatemethod\requests\Request.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\INotification.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\proxy\ProxyTest.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\builder\internalclassapproach\Car.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\FactoryConfiguration.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\builder\BuilderTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\models\Animal.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\adapter\UsbTypeC.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\BridgeTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\SamsungFactory.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\PrintDataCommand.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\IRepository.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\builder\builderclass\UserBuilder.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\unitofwork\UnitOfWorkTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\MakeCallCommand.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\builder\orchestorclass\WoodHouseBuilder.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\Green.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\RepositoryTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\chainofresponsability\Director.java
@@ -28,6 +33,7 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\Shape.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\command\CommandExecutor.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\Samsung.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\builder\orchestorclass\IglooBuilder.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\repository\AnimalRepository.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\adapter\IConnectable.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\observer\ObserverView.java
@@ -38,6 +44,7 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\DecoratorTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\Iphone.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\decorator\EmailNotification.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\builder\orchestorclass\Engineer.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\dao\DatabaseConnection.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\observer\ConcrateObservable.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\observer\ConcrateObserver.java
@@ -54,6 +61,7 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\dao\impl\SqlServerConnection.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\templatemethod\HttpMethod.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\Black.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\builder\orchestorclass\House.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\abstractfactory\AbstractFactoryTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\chainofresponsability\IApprover.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\observer\IObserver.java
@@ -67,6 +75,7 @@ C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpattern
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\templatemethod\PersonController.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\bridge\Rectangle.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\chainofresponsability\AccountExecutive.java
+C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\builder\builderclass\User.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\memento\History.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\adapter\AdapterTest.java
 C:\Users\felix\repos\DesignPatterns\src\main\java\com\architecture\designpatterns\proxy\MessageServiceProxy.java
