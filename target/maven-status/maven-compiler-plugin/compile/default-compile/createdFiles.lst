@@ -6,10 +6,12 @@ com\architecture\designpatterns\repository\PersonRepository.class
 com\architecture\designpatterns\adapter\IphoneConnector.class
 com\architecture\designpatterns\repository\RepositoryTest.class
 com\architecture\designpatterns\proxy\LogServiceImpl.class
+com\architecture\designpatterns\memento\Document.class
 com\architecture\designpatterns\templatemethod\HttpController.class
 com\architecture\designpatterns\repository\Repository.class
 com\architecture\designpatterns\dao\DaoTest.class
 com\architecture\designpatterns\decorator\INotification.class
+com\architecture\designpatterns\memento\DocumentState.class
 com\architecture\designpatterns\abstractfactory\IphoneFactory.class
 com\architecture\designpatterns\templatemethod\requests\Request.class
 com\architecture\designpatterns\abstractfactory\Xiaomi.class
@@ -38,6 +40,7 @@ com\architecture\designpatterns\bridge\Triangle.class
 com\architecture\designpatterns\templatemethod\HttpMethod.class
 com\architecture\designpatterns\adapter\IConnectable.class
 com\architecture\designpatterns\decorator\BaseDecorator.class
+com\architecture\designpatterns\memento\History.class
 com\architecture\designpatterns\bridge\BridgeTest.class
 com\architecture\designpatterns\abstractfactory\Iphone.class
 com\architecture\designpatterns\bridge\Red.class
@@ -79,4 +82,5 @@ com\architecture\designpatterns\adapter\AdapterTest.class
 com\architecture\designpatterns\decorator\DecoratorTest.class
 com\architecture\designpatterns\abstractfactory\AbstractFactoryTest.class
 com\architecture\designpatterns\singleton\SingletonTest.class
+com\architecture\designpatterns\memento\MementoTest.class
 com\architecture\designpatterns\repository\models\Animal.class
